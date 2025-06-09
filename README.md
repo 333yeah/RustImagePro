@@ -4,6 +4,11 @@
 
 ## 功能特点
 
+- 支持多种图像格式：
+  - JPG/JPEG
+  - PNG
+  - GIF
+
 - 支持多种降噪算法：
   - 均值滤波 (Mean Filter)
   - 高斯滤波 (Gaussian Filter)

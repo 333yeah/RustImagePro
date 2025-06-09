@@ -4,11 +4,6 @@
 
 ## 功能特点
 
-- 支持三种图像类型：
-  - jpg
-  - gif
-  - png
-
 - 支持多种降噪算法：
   - 均值滤波 (Mean Filter)
   - 高斯滤波 (Gaussian Filter)
@@ -37,14 +32,14 @@
 ## 安装
 
 1. 确保已安装 Rust 开发环境
-2. 克隆项目仓库：
+2. 创建新的 Rust 项目：
    ```bash
-   git clone https://github.com/333yeah/RustImagePro
-   ```
-3. 进入项目目录：
-   ```bash
+   cargo new image_denoise
    cd image_denoise
    ```
+3. 替换项目文件：
+   - 将 `src/main.rs` 替换为项目中的 `src/main.rs`
+   - 将 `Cargo.toml` 替换为项目中的 `Cargo.toml`
 4. 编译项目：
    ```bash
    cargo build --release
